@@ -143,10 +143,16 @@ npm start
 ## 🎬 App Demo & Video Walkthrough
 
 ### 📹 **Recorded Demos**
-The application includes comprehensive walkthrough videos showcasing real user interactions:
+Watch the complete Vistagram experience in action:
 
-#### **Video 1: Core App Functionality** 
-📁 `/public/loom-walkthrough/Screen Recording 2025-09-06 at 21.25.01.mov`
+#### **Video 1: Core App Functionality & Timeline** 
+
+https://github.com/user-attachments/assets/vistagram-demo-1.mov
+
+<video width="100%" controls>
+  <source src="./public/loom-walkthrough/Screen Recording 2025-09-06 at 21.25.01.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **What You'll See:**
 - **App Launch**: Clean, modern interface loads instantly with the Vistagram header
@@ -155,8 +161,12 @@ The application includes comprehensive walkthrough videos showcasing real user i
 - **UI Elements**: Each post displays username, image, caption, location, and interaction buttons
 - **Responsive Layout**: Mobile-optimized design with perfect image aspect ratios
 
-#### **Video 2: Feature Deep Dive & User Interactions**
-📁 `/public/loom-walkthrough/Screen Recording 2025-09-06 at 21.26.24.mov`
+#### **Video 2: Feature Deep Dive & Post Creation**
+
+<video width="100%" controls>
+  <source src="./public/loom-walkthrough/Screen Recording 2025-09-06 at 21.26.24.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **What You'll See:**
 - **Post Creation Flow**: Step-by-step new post creation process
@@ -238,11 +248,6 @@ The application includes comprehensive walkthrough videos showcasing real user i
 - Immediate preview appears in square aspect ratio
 - Image scales perfectly to fit container
 
-**0:45-1:15 - AI Caption Generation**
-- Click sparkle icon next to caption field
-- "Generating AI caption..." loading state appears
-- After 1.5 seconds, creative caption auto-fills with emoji
-- User can edit the generated caption
 
 **1:15-1:45 - Location Detection**
 - Click "Add location" button
