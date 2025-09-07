@@ -2,6 +2,19 @@
 
 A modern Instagram-inspired social media application built with Next.js, featuring AI-powered captions, location detection, and camera integration. The name "Vistagram" is a blend of "Visit" + "Instagram" - emphasizing location-based photo sharing.
 
+## 🌐 Live Demo
+
+**Try Vistagram now:** [https://vistagram-amber-zeta.vercel.app/](https://vistagram-amber-zeta.vercel.app/)
+
+Experience the full application with all features:
+- 📸 Upload photos or capture with your camera
+- 🤖 Generate AI captions automatically  
+- 📍 Detect your location and nearby POIs
+- ❤️ Like and share posts with smooth interactions
+- 🎨 Beautiful, responsive Instagram-inspired UI
+
+*No signup required - start sharing moments immediately!*
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -143,7 +156,7 @@ npm start
 ## 🎬 App Demo & Video Walkthrough
 
 ### 📹 **Recorded Demos**
-Watch the complete Vistagram experience in action:
+Watch the complete Vistagram experience in action, or try it live at [vistagram-amber-zeta.vercel.app](https://vistagram-amber-zeta.vercel.app/):
 
 #### **Video 1: Core App Functionality & Timeline** 
 
