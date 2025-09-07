@@ -147,7 +147,7 @@ Watch the complete Vistagram experience in action:
 
 #### **Video 1: Core App Functionality & Timeline** 
 
-https://github.com/user-attachments/assets/vistagram-demo-1.mov
+https://github.com/
 
 <video width="100%" controls>
   <source src="./public/loom-walkthrough/Screen Recording 2025-09-06 at 21.25.01.mov" type="video/mp4">
@@ -523,13 +523,6 @@ const handleNewPost = (image: string, caption: string, poi: string | null) => {
   }
   setPosts((prevPosts) => [newPost, ...prevPosts]) // Prepend to timeline
 }
-```
-
-**User Experience:**
-- Click "Share Post" → Form validates inputs
-- New post appears instantly at top of timeline
-- Form resets for next post creation
-- Smooth animation as post slides into view
 
 ### 6. **Post Display & Interactions**
 
@@ -576,22 +569,6 @@ const saveInteractions = (newInteractions: PostInteractions) => {
   localStorage.setItem(`post-interactions-${postId}`, JSON.stringify(newInteractions))
 }
 ```
-
-**User Experience:**
-- Heart icon fills red when liked, updates count instantly
-- Share button copies link or opens native share dialog
-- Interactions persist across browser sessions
-- Relative timestamps update dynamically ("2h ago", "1d ago")
-
-## 🎯 Complete User Journey Summary
-
-1. **Entry** → Clean, modern interface loads with sample posts
-2. **Upload** → Choose file or capture photo with camera
-3. **AI Magic** → Generate creative caption automatically
-4. **Location** → Detect and display nearby POI
-5. **Share** → Post appears instantly in timeline
-6. **Interact** → Like, share, and engage with posts
-7. **Persist** → All interactions saved locally
 
 This end-to-end flow showcases Vistagram's core value: making photo sharing intelligent, location-aware, and socially engaging with modern web technologies.
 
